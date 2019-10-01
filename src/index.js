@@ -9,7 +9,7 @@ module.exports = function multiply(first, second) {
     for(let j=0; j<b.length; j++){
       let mult=a[i]*b[j];
       if(result[i+j]){
-        result[i+j]=result[i+j]+mult;
+        result[i+j]+=mult;
       }
       else{
         result[i+j]=mult;
